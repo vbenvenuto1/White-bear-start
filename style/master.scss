@@ -1,0 +1,11 @@
+// import functions, mixins, and variables from bootstrap
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// import theme.scss
+@import "theme.scss";
+// import Bootstrap
+@import "bootstrap/bootstrap.scss";
+// import custom styles
+@import "style.scss";

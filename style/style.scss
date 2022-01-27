@@ -1,0 +1,103 @@
+h1 {
+   $h1-font-size: $font-size-base * 3.75;
+   $font-family-brand: "Fira Sans";
+}
+h2 {
+   $h2-font-size: $font-size-base * 1.6875;
+   color: black;
+}
+h3 {
+   $h3-font-size: $font-size-base * 1.25;
+}
+h4 {
+   $h4-font-size: $font-size-base * 1.25;
+}
+
+p {
+   font-size: 16px;
+   font-family: $font-family-sans-serif;
+   text-align: none;
+   color: black;
+}
+.background-image {
+   background-image: url("/images/background-landing.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+
+.btn-link {
+   padding-left: 0;
+   padding-right: 0;
+   border: 0;
+   font-weight: $font-weight-bold;
+}
+.text-brand {
+   font-family: $font-family-brand;
+}
+.tab-separator {
+   border-left: 1px $gray-800 solid;
+}
+.tab-active {
+   background-color: $gray-800;
+}
+
+.card {
+   border: 0;
+}
+.card-body {
+   color: $white;
+   font-family: $font-family-serif;
+   font-size: $font-size-base * 1.25;
+}
+.card.bg-primary {
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+}
+
+.card.bg-secondary {
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+}
+
+.btn-group button {
+   font-weight: $font-weight-normal;
+}
+
+textarea {
+   width: 100%;
+   background-color: transparent;
+   border: none;
+   overflow: auto;
+   outline: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   resize: none;
+}
+
+.card textarea {
+   color: $white;
+}
+
+.bg-success,
+.bg-danger p.lead {
+   color: $white;
+}
+.search-border {
+   border-width: $border-width;
+   border-color: $gray-400;
+}
+.select-menu {
+   border-width: $border-width;
+   border-color: $gray-400;
+}
+.btn-danger {
+   border-width: $border-width;
+   border-color: $danger;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+   background-color: $primary;
+}

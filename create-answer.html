@@ -1,0 +1,88 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>White Bear Start</title>
+      <link rel="stylesheet" href="style/dist.css" />
+   </head>
+   <body>
+      <div
+         class="bg-success w-100 d-none py-4 justify-content-center fixed-top"
+         id="overlay-success"
+      >
+         <img
+            src="/icons/success.svg"
+            width="28px"
+            style="margin-bottom: 3px;"
+            class="mr-2"
+         />
+         <p class="lead">Card created!</p>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div
+               class="col-12 col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1"
+            >
+               <img
+                  src="icons/logo-app.svg"
+                  width="32px;"
+                  alt="White-bear-logo"
+               />
+               <h3 class="d-inline text-brand">White Bear</h3>
+               <a href="index.html" class="btn btn-link float-right">Log Out</a>
+
+               <div
+                  class="btn-group d-flex"
+                  role="navigation"
+                  aria-label="navigation"
+               >
+                  <a
+                     href="review-answer.html"
+                     type="button"
+                     class="btn btn-secondary tab-active"
+                     >Create new</a
+                  >
+                  <a
+                     href="review-imagery.html"
+                     type="button"
+                     class="btn btn-secondary tab-separator"
+                  >
+                     Review
+                  </a>
+                  <a
+                     href="all-cards.html"
+                     type="button"
+                     class="btn btn-secondary tab-separator"
+                  >
+                     All cards
+                  </a>
+               </div>
+               <h4 class="my-4 text-center text-muted">Add an answer</h4>
+               <div class="mb-2">
+                  <div class="card bg-secondary">
+                     <div class="card-body">
+                        <textarea rows="6" col="30" id="textBox"></textarea>
+                     </div>
+                  </div>
+               </div>
+
+               <p class="float-right mb-5" id="count">0/240</p>
+               <div class="clearfix"></div>
+               <div class="float-right">
+                  <a
+                     href="create-imagery.html"
+                     class="btn btn-outline-primary mt-4"
+                  >
+                     Next
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      defer
+   ></script>
+   <script src="script.js" defer></script>
+</html>
